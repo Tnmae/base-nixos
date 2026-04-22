@@ -20,7 +20,10 @@
     autoRepeatInterval = 35;
     windowManager.qtile.enable = true;
   };
-  services.displayManager.ly.enable = true;
+  services.displayManager = {
+    defaultSession = "none+qtile";
+    ly.enable = true;
+  };
 
   users.users.tnmae = {
     isNormalUser = true;
