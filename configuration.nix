@@ -14,7 +14,6 @@
 
   time.timeZone = "Asia/Kolkata";
 
-  services.displayManager.ly.enable = true;
   services.xserver = {
     enable = true;
     autoRepeatDelay = 200;
